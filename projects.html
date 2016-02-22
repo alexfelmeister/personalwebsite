@@ -1,92 +1,173 @@
 <html><head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-    </head><body>
-        <div class="section" id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="nav nav-justified nav-pills">
-                            <li id="home">
-                                <a href="index.html#home" id="homebotton">Home</a>
-                            </li>
-                            <li id="events">
-                                <a href="news-archive.html">Recent</a>
-                            </li>
-                            <li id="projectbutton" class="active">
-                                <a href="projects.html">Projects</a>
-                            </li>
-                            <li id="edubutton">
-                                <a href="academics.html">Academics/CV</a>
-                            </li>
-                            <li>
-                                <a href="index.html#contacts">Contacts</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <meta charset="utf-8">
+    <!-- <link rel="icon" type="image/png" href="assets/paper_img/favicon.ico"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Alex Felmeister</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/ct-paper.css" rel="stylesheet">
+    <link href="assets/css/demo.css" rel="stylesheet">
+    <link href="assets/css/alex.css" rel="stylesheet">
+    <!-- Fonts and icons -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+  </head><body>
+    <nav class="navbar navbar-default" role="navigation-alex" id="alex-navbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/DragonIcon_Blue_HEX.png">Alex S. Felmeister</a>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/brainscan.png" class="img-responsive">
-                        <h2>The Children's Brain Tumor Tissue Consortium</h2>
-                        <p contenteditable="true">The CBTTC is a multi-institutional cooperative research program dedicated
-                            to the study of childhood brain tumors. The ultimate goal of the CBTTC
-                            is to improve outcomes for children with brain tumors by supporting research
-                            on new prognostic biomarkers and therapies.&nbsp;
-                            <br>
-                            <br>The CBTTC is a new paradigm for tissue&nbsp;research, not only collecting
-                            all types of childhood brain tumors but additionally performing analysis
-                            using cutting edge technologies while freely sharing the data with the
-                            scientific community at large to develop new treatments.
-                            <br>
-                            <a href="http://www.cbttc.org">www.cbttc.org</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/ibd-4.jpg" class="img-responsive">
-                        <h2>IBD Center Biorepository</h2>
-                        <p>Biorepository informatics infrastructure and data project including three
-                            studies in the CHOP IBD Center focused on the study of inflammatory bowel
-                            disease.&nbsp;</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/microbiomenature.jpg" class="img-responsive">
-                        <h2>PennCHOP Microbiome</h2>
-                        <p>Details to come.</p>
-                    </div>
-                </div>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navigation-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html" class="btn btn-simple"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="academics.html" class="btn btn-simple">Academics</a>
+            </li>
+            <li>
+              <a href="projects.html" class="btn btn-simple">Projects</a>
+            </li>
+            <li>
+              <a href="news-archive.html" class="btn btn-simple">News Archive</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="btn btn-simple">Contacts</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/scimeister" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i>@scimeister</a>
+            </li>
+            <li>
+              <a href="mailto:felmeistera@email.chop.edu" target="_blank" class="btn btn-simple"><i class="fa fa-envelope"></i>Email</a>
+            </li>
+          </ul>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/pennnsg.jpg" class="img-responsive">
-                        <h2>Penn CHOP Neurosurgery Tissue Collaborative</h2>
-                        <p>The Penn-CHOP Tumor Tissue Bank, a state-of-the-art brain tumor biorepository,
-                            is a collaborative effort between several departments at the University
-                            of Pennsylvania (Neurosurgery and Pathology) and the Children’s Hospital
-                            of Philadelphia (CHOP).&nbsp;
-                            <br>
-                            <br>Under this&nbsp;collaborative, fresh tumor tissue is collected, processed,
-                            and stored for multiple downstream applications. In addition cell lines
-                            derived from primary brain tumors are also banked and available for the
-                            research community. We hope the Penn-CHOP Neurosurgery Tumor Bank Collaborative
-                            will facilitate the development of personalized therapies through the characterization
-                            of each individual tumor at the genetic, epigenetic and proteomic level.</p>
-                    </div>
-                    <div class="col-md-4"></div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-->
+    </nav>
+    <!-- end navbar -->
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="media-list">
+              <li class="media">
+                <a class="pull-left" href="#"><img class="img-thumbnail media-object" src="images/brainscan.png" height="64" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">The Children's Brain Tumor Tissue Consortium (CBTTC)&nbsp;</h4>
+                  <p contenteditable="true">The CBTTC is a multi-institutional cooperative research program dedicated
+                    to the study of childhood brain tumors. The ultimate goal of the CBTTC
+                    is to improve outcomes for children with brain tumors by supporting research
+                    on new prognostic biomarkers and therapies.&nbsp;
+                    <br>
+                    <br>The CBTTC is a new paradigm for tissue&nbsp;research, not only collecting
+                    all types of childhood brain tumors but additionally performing analysis
+                    using cutting edge technologies while freely sharing the data with the
+                    scientific community at large to develop new treatments.
+                    <br>
+                    <a href="http://www.cbttc.org">www.cbttc.org</a>
+                  </p>
                 </div>
-            </div>
-        </div>
-    
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="img-thumbnail media-object" src="images/pennnsg.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">Penn/CHOP Neurosurgery Tissue Repository</h4>
+                  <p>The Penn-CHOP Tumor Tissue Bank, a state-of-the-art brain tumor biorepository,
+                    is a collaborative effort between several departments at the University
+                    of Pennsylvania (Neurosurgery and Pathology) and the Children’s Hospital
+                    of Philadelphia (CHOP).&nbsp;
+                    <br>
+                    <br>Under this&nbsp;collaborative, fresh tumor tissue is collected, processed,
+                    and stored for multiple downstream applications. In addition cell lines
+                    derived from primary brain tumors are also banked and available for the
+                    research community. We hope the Penn-CHOP Neurosurgery Tumor Bank Collaborative
+                    will facilitate the development of personalized therapies through the characterization
+                    of each individual tumor at the genetic, epigenetic and proteomic level.</p>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="img-thumbnail media-object" src="images/ibd-4.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">CHOP IBD Center Biorepository</h4>
+                  <p>Biorepository informatics infrastructure and data project including three
+                    studies in the CHOP IBD Center focused on the study of inflammatory bowel
+                    disease.&nbsp;</p>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="img-thumbnail media-object" src="images/microbiome-logo.png" height="64" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">Informatics/Penn/CHOP Microbiome Center Partnership</h4>
+                  <p>The informatics team at the Department of Biomedical and Health Informatics
+                    has partnered with the Penn/CHOP Microbiome center to provide intergrated
+                    informatics solutions for this new venture.</p>
+                  <p>The University of Pennsylvania and Children’s Hospital of Philadelphia
+                    have launched a Microbiome Program to take advantage of new research in
+                    this area to advance the health of children and adult</p>
+                  <a href="https://www.med.upenn.edu/penn-chop-microbiome/">https://www.med.upenn.edu/penn-chop-microbiome/</a>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="img-thumbnail media-object" src="images/cccr.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">CHOP The Center for Childhood Cancer Research Specimen and Data Repository</h4>
+                  <p>
+                    <a href="http://cccr.research.chop.edu">Cancer Center @ CHOP</a>
+                  </p>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><span class="glyphicon glyphicon-cloud fa-3x"></span></a>
+                <div class="media-body">
+                  <h4 class="media-heading">The Center for Data Driven Discovery in Biomedicine (D3b) </h4>
 
-</body></html>
+                  <p>New CHOP Center Harnesses “Big Data” to Help Little Patients
+                  <p>
+                    <a href="http://www.chop.edu/news/new-chop-center-harnesses-big-data-help-little-patients#.VsCQeJMrIUE" target="_blank">More Info</a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="main"></div>
+    </div>
+    <footer class="footer-demo section-nude">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="http://www.creative-tim.com">
+                    Creative Tim Inspired
+                </a>
+                    </li>
+                    <li>
+                        <a href="http://www.creative-tim.com/product/rubik">
+                    Style Licenses
+                </a>
+                    </li>
+                    <li>
+                        <a href="mailto:felmeistera@email.chop.edu">
+                  <i class="fa fa-envelope"></i> Email Alex @ CHOP
+                </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">© 2015, Alex S. Felmeister</div>
+        </div>
+    </footer>
