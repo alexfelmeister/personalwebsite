@@ -71,7 +71,7 @@
                             </div>
                             <div class="col-md-8">
                                 <br>
-                                <hr><p class="text-justify" id="abouttext">I am a second year, part-time, PhD student at&nbsp;
+                                <hr><p class="text-justify" id="abouttext">I am a doctoral candidate at&nbsp;
                                     <a href="http://www.drexel.edu">Drexel University</a>&nbsp;in Information Studies and Informatics at the
                                     <a href="http://cci.drexel.edu">College of Computing and Informatics</a>&nbsp;where I work under the advisement of
                                     <a href="http://cci.drexel.edu/faculty/thu/">Dr. Tony Hu</a>. I am also Enterprise Informatics Supervisor at
@@ -106,6 +106,11 @@
                             <div class="col-md-8">
                                 <h4>News and Upcoming Activity</h4>
                                 <ul class="list-group">
+                                  <li class="list-group-item">
+                                      <h4><span class="glyphicon glyphicon-check checked"></span>Passed Preliminaries Candidacy Exam</h4>
+                                      <br><button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#candidacy">Abstract</button>
+
+                                  </li>
                                   <li class="list-group-item">
                                       <h4><span class="glyphicon projection-screen"></span>Presenting at AMIA Joint Summits on Translational Science</h4>
                                       <h5>Mar 21 - 24, 2016 in San Fran.</h5>
@@ -166,6 +171,27 @@
         <!--main-->
         <!--wrapper-->
         <!-- Modal Bodies come here -->
+        <div class="modal fade" id="candidacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Empowering heterogeneous data driven resources to fuel translational research in rare pediatric cancer</h4>
+                        <p class="text-justify">
+                          <p>  <i>Abstract</i>— Every day we collaborate on social media and productivity applications, which communicate over web services. These communications are full of heterogeneous data (different file formats, technical syntax, size, etc.) These data are compared with other data through algorithmic population-based decisions and transformed into information that is served in an application of a user’s choice, anytime, anywhere. As strides in information technology are making connectivity and obtaining powerful information easier, technology is also driving the biomedical domain and pushing boundaries in medical research. One of the most exciting advances happened just over ten years ago: A large collaborative effort led to the unraveling of the entire human genome sequence. This discovery quickly unlocked connections between our genetic code and our health profile. Today, our ability to unlock the information in a cell through advanced DNA and RNA sequencing goes beyond merely our inherited genomic traits to include a complex understanding of the molecular underpinnings and functions of one of humanity’s greatest foes: cancer. </p>
+
+<p>Biologically based cancer research requires a combination of significant amounts of physical tumor tissue, a full understanding of a patient’s phenotype (e.g. their medical history) and access to large genomic data sets derived from both the tumor and the patient. These data sets are dimensionally diverse in size, scope and platform, but they must be taken as a whole to discover molecular pathways and create new classifications of disease to impact clinical outcomes (e.g. responses to targeted therapies and survival). </p>
+
+<p>This prospectus explores the modern, semantic data driven web paradigm for biomedical researchers who study rare pediatric brain tumors. It tackles, trough evaluation of translational informatics platforms, data driven integrated infrastructure for researchers needing to operationalize outside the walls of one institution to establish critical mass of information and specimens then query the resulting heterogeneous data in connected applications. As a potential area of dissertation research, data mining and machine learning techniques are compared to evaluate the utility in supplementing data in the rare tumor databases with large published data sets readily available in heavily researched areas of cancer and observational health networks. This could fill an identified void in biologically based cancer research where there is simply not enough clinical annotation of rare disease repositories, particularly in pediatrics. This research can empower data use and access to drive discovery for a population in need of new and novel therapies. </p>
+
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="ieeeabstract" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -177,7 +203,7 @@
                             for Integrated Clinical, Specimen and Genomic Research</h4>
                         <h5>A Data Driven and Integrative Approach to Asychronous, Longitudinal and
                             Collaborative Specimen and Genomic Research</h5>
-                        <p class="text-justify">
+                        <p>
                             <i>Abstract</i>— Biorepository research has introduced significant challenges
                             to biomedical informatics systems design and implementation. We take a
                             best-of-breed system integrative approach to finding solutions to administer
